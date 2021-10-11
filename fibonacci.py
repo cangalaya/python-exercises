@@ -3,7 +3,7 @@ def get_integer(message):
 
 def fibonacci(number):
     if number < 3:
-        return "fibonacci number invalid"
+        return "fibonacci number invalid, write a number greater than 2"
     list_fibonnaci = [1,1]      # fist list
     while len(list_fibonnaci) < number:
         next_number = list_fibonnaci[len(list_fibonnaci)-2] + list_fibonnaci[len(list_fibonnaci)-1]
