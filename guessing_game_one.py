@@ -47,8 +47,7 @@ def run():
                 time.sleep(2)
             else:
                 break           # if random_number equals user_number, get out from the while
-                
-            
+
             user_number = input('    Digite un número del 1 al 9: ')
             user_number = convert_str_to_int(user_number)
 
