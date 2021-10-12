@@ -1,7 +1,7 @@
 import random
 import os
 
-MENU = """  ++  P A S S W O R D  G E N E R A T O R  ++
+MENU = """  ++  P A S S W O R D  G E N E R A T O R  ++   by @djalocho
     
     Choose a security level:
         [1] - Low
@@ -45,7 +45,7 @@ def run():
     os.system("clear")
     security_level = num_input(MENU)
     password = pass_gen(security_level)
-    print("        The password generated is:", password)
+    print("        The password generated is:", password + '\n')
 
 if __name__ == "__main__":
     run()
